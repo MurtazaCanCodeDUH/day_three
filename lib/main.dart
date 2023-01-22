@@ -966,7 +966,7 @@ class Task3 extends StatelessWidget {
                             height: 130,
                             child: Column(children: [
                               const Text(
-                                  "Enter your answer for task 3 to go to task 4"),
+                                  "Enter your answer for task 3"),
                               Padding(
                                 padding:
                                 const EdgeInsets.fromLTRB(4, 20, 4, 8),
@@ -1057,7 +1057,7 @@ class Task3 extends StatelessWidget {
                                               context,
                                               MaterialPageRoute(
                                                   builder: (context) =>
-                                                      Task4()),
+                                                      Task5()),
                                             )
                                           }
                                         },
